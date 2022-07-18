@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: linear-gradient(#62bfae, #eec9d2, beige);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    margin-bottom:3px;
+    color:#ff5740;
+    font-family:'Comic Sans MS', 'Comic Sans', 'cursive'; 
+}
+
+hr{
+    margin:0 auto 20px auto;
+    background-color:rgb(207, 148, 148);
+    border:none;
+    height:3px;
+    width:300px;
+}
+
+
+
+.game {
+    position:relative;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    background-color: #62bfae;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px;
+    border: 2px solid #22ab99;
+
+}
+
+.grid button {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    color: #ff5740;
+    background-color: #eec9d2;
+    border: 1px solid rgb(207, 148, 148);
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.header {
+    margin-top: 15px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button {
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    width: 80px;
+    background-color: #ff5740;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+
+.header button:hover {
+    transform: scale(1.05);
+}
+
+.header span {
+    flex: 1;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: auto 0;
+}
+
+.message {
+
+    color: #ff5740;
+    height: 80px;
+
+}
+
+.instructions{
+    color:#0c2461;
+    margin:0;
+    padding:0;
+    font-size:20px;
+}
+
+.single-footer{
+    padding:30px 0;
+    color:#0c2461;
+    float:center;
+}
+
+.single-footer a:hover {
+
+    transform: scale(1.05);
+    color:#ff5740;
+
+}
+
+.single-footer i {
+    font-size: 25px;
+    margin-left:10px;
+    margin-right:10px;
+
+}
+
+.fa:hover {
+    transform: scale(1.25);
+
+}
+
+
